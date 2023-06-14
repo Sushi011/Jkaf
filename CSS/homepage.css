@@ -1,0 +1,221 @@
+  * {
+    padding: 0;
+    margin: 0;
+    color: #3c4043;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  /*id for html tag- will scroll to the top from footer*/
+  #top {
+    scroll-behavior: smooth;
+  }
+
+  /*id for category section- will scroll to the top from footer*/
+  #ftrcategory {
+    scroll-behavior: smooth;
+  }
+
+  /*Specifies all text element*/
+  h1,
+  h2,
+  h4,
+  a,
+  p,
+  li {
+    font-family: "Courier New";
+  }
+
+  /*Specifies all p element*/
+  p {
+    font-size: 18px;
+  }
+
+  /*Video Cover*/
+  video.fullscreen {
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 50px;
+  }
+  .container {
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    width: 99vw;
+  }
+
+  /*Intro*/
+  /*For  welcome section for home.html*/    
+  .welcome {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    left: 0px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 0.5px #eae4df;
+    padding: 40px;
+  }
+
+  .welcome h1 {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .welcome p {
+    text-align: center;
+    margin: 0px 80px;
+  }
+
+.featured p{
+  text-align: center;
+}
+
+/*For featured products*/
+.featured {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 0px 0.5px #eae4df;
+  border-radius: 25px;
+  background-color: #1D1C45;
+}
+
+.featured h1 {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 50px;
+  margin: 0px;
+  color: #90FCF9;
+}
+
+.featured > div {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  text-align: center;
+  margin-bottom: 20px;
+  column-gap: 60px;
+  justify-content: center;
+  background-color:#1D1C45;
+}
+
+.featured h4 {
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+  font-weight: semibold;
+  width: 300px;
+  box-shadow: 0px 0px 2px #000;
+  border-radius: 25px;
+  background-color: royalblue;
+}
+.featured img {
+  max-height: 230px;
+}
+
+.featured img:hover {
+  border-radius: 25px;
+  transform: scale(1.1, 1.1);
+  transition: 0.3s ease;
+}
+
+.featured h4:hover {
+  border-radius: 25px;
+  text-decoration: underline;
+  box-shadow: 0px 0px 5px 0.1px;
+}
+.featured h4:hover .acnebhov,
+.featured h4:hover .gentlebhov,
+.featured h4:hover .thickbhov,
+.featured h4:hover .colorbhov,
+.featured h4:hover .fembhov,
+.featured h4:hover .moistbhov {
+  transform: scale(1.05, 1.05);
+  transition: all 0.3s ease-in-out;
+  background-color: #C87AF9;
+}
+
+.featured p {
+  font-weight: 500;
+  max-width: 300px;
+  padding-top: 10px;
+  background-color: royalblue;
+}
+
+.featured .price {
+  color: black;
+}
+
+.acneb,
+.gentleb,
+.thickb,
+.colorb,
+.femb,
+.moistb {
+  border-radius: 25px;
+  overflow: hidden;
+  height: 270px;
+}
+
+.acnebhov,
+.gentlebhov,
+.thickbhov,
+.colorbhov,
+.fembhov,
+.moistbhov {
+  height: 270px;
+  width: 270px;
+  border-radius: 25px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out; 
+}
+
+.acnebhov {
+  background-image: url(../pixs/famshirt.png);
+}
+
+.gentlebhov {
+  background-image: url(../pixs/razerwindbreaker.png);
+}
+
+.thickbhov {
+  background-image: url(../pixs/rogpillow.png);
+}
+
+.colorbhov {
+  background-image: url(../pixs/samprosilver.png);
+}
+
+.fembhov {
+  background-image: url(../pixs/samproviolet.png);
+}
+
+.moistbhov {
+  background-image: url(../pixs/zfoldpropad.png);
+}

@@ -1,0 +1,218 @@
+.card-prompt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.success {
+    background-color: #c8f7c5;
+    color: #4caf50;
+}
+
+.error {
+    background-color: #ffb1b1;
+    color: #f44336;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: transparent;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+a{
+    color: royalblue;
+    text-decoration: none;
+}
+a:hover{
+    color: royalblue;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: royalblue;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    background-color:transparent;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/* CSS for Food SEarch Section */
+
+.prod-search{
+    background-image: url("./IMAGES/productsback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+}
+
+.prod-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+    color: black;
+}
+
+
+/* CSS for Food Menu */
+.prod-menu{
+    padding-top: 1% ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+}
+.prod-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.prod-menu-img{
+    width: 20%;
+    float: left;
+    background-color: #ececec;
+}
+
+.prod-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+    background-color: #ececec;
+    color: black;
+}
+
+.prod-menu-desc h3{
+    background-color: #ececec;
+    color: black;
+}
+.prod-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+    background-color: #ececec;
+    color: black;
+}
+.prod-detail{
+    font-size: 1rem;
+    color: #747d8c;
+    background-color: white;
+
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ececec;
+    border-radius:5px;
+    padding:5px;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ececec;
+    color: black;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    background-color: #ececec;
+}
+fieldset{
+    background-color: #ececec;
+}
+legend{
+    background-color: #ececec;
+    color: black;   
+}

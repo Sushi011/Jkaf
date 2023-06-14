@@ -1,0 +1,74 @@
+/*Map*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:35%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    position:absolute;
+}   
+/*Contact Us Form*/
+.writereviewctr {
+    margin: 0px auto;
+    padding: 10px 0px 40px;   
+    background-color: #5443ee;
+  }
+  
+  .writereviewctr h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 10px;
+    background-color: #5443ee;
+    color:WHITE;  
+}
+  
+  .reviewinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5443ee;
+  }
+  
+  .reviewinput label {
+    margin: 10px 0px 5px;
+    background-color: #5443ee;    
+    color: white;
+  }
+  
+  .reviewinput input,
+  .reviewinput textarea {
+    margin: 0px 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1D1C45;
+    border-width: 2px;
+    background-color: black;
+
+  }
+  
+  #fname,
+  #textarea,
+  #Email {
+    width: 350px;
+  }
+  
+  #submit {
+    margin-top: 10px;
+    width: 100px;
+    background: #3c4043;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background: #4FB9F8;
+  }

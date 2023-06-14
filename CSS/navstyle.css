@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.navleft {
+  display: flex;
+}
+.navbar h1 {
+  font-size: 32px;
+}
+
+.menu {
+  margin-left: 10px;
+}
+.navicon {
+  font-size: 27px;
+  padding: 5px;
+  border-radius: 25%;
+}
+
+.navicon:hover {
+  background-color: #eae4df;
+}
+
+.menuwrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0px 80px;
+  padding-top: 5px;
+  border-bottom: 2px solid #eaeaeb;
+  margin-bottom: 20px;
+}
+
+.menuwrapper h1,
+.menuwrapper .navfeatures {
+  line-height: 63px;
+}
+
+.menuwrapper h1 {
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+.menuwrapper .navfeatures {
+  margin-right: 20px;
+}
+
+.navresp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hello {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navrespleft {
+  display: flex;
+}
+.navrespleft h1 {
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #eaeaeb;
+  padding: 10px 0px;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  height: 28px;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+  border-top: 1px solid #eaeaeb;
+}
+
+.navbar-links li a {
+  padding: 5px 0;
+}
+.navbar-links1 li {
+  list-style: none;
+  background-color: #f6f9fe;
+}
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+}
+
+.navbar-links li a:hover {
+  background-color: #e7f1ec;
+}
+
+.toggle-button {
+  top: 0.75rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  margin: auto 0 auto 15px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #3c4043;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: none;
+}

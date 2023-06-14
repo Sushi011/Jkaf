@@ -1,0 +1,152 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: transparent;
+}
+form{
+    background-color: transparent;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+    color: #C87AF9;
+    font-family: 'VCR OSD MONO';  
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+    font-family: 'VCR OSD MONO';
+}
+a:hover{
+    color: #ff4757;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 2%;
+    font-family: 'VCR OSD MONO';
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    color: black; 
+    background-color: white ;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/* CSS for Food SEarch Section */
+
+.prod-search{
+    background-image: url("../IMAGES/productsback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.prod-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+    color: black;
+}
+
+
+/* CSS for Food Menu */
+.prod-menu{
+    padding-top: 1% ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+}
+.prod-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.prod-menu-img{
+    width: 20%;
+    float: left;
+    background-color: white;
+}
+
+.prod-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+    background-color: white;
+    color: black;
+}
+
+.prod-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+    background-color: white;
+    color: black;
+}
+.prod-detail{
+    font-size: 1rem;
+    color: #747d8c;
+    background-color: white;
+
+}
